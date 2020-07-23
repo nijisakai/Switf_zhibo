@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2C0D18F624C9E1D900854F4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0D18F524C9E1D900854F4B /* Default-568h@2x.png */; };
+		2C0D18F824C9E5CE00854F4B /* classes in Resources */ = {isa = PBXBuildFile; fileRef = 2C0D18F724C9E5CE00854F4B /* classes */; };
 		2C4E7FAF24C9A23C005C162F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FAE24C9A23C005C162F /* AppDelegate.swift */; };
 		2C4E7FB124C9A23C005C162F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB024C9A23C005C162F /* SceneDelegate.swift */; };
 		2C4E7FB324C9A23C005C162F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB224C9A23C005C162F /* ContentView.swift */; };
 		2C4E7FB524C9A23C005C162F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB424C9A23C005C162F /* Assets.xcassets */; };
 		2C4E7FB824C9A23C005C162F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB724C9A23C005C162F /* Preview Assets.xcassets */; };
 		2C4E7FBB24C9A23C005C162F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB924C9A23C005C162F /* LaunchScreen.storyboard */; };
-		2C4E7FC624C9A23D005C162F /* zhiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FC524C9A23D005C162F /* zhiboTests.swift */; };
-		2C4E7FD124C9A23D005C162F /* zhiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FD024C9A23D005C162F /* zhiboUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		2C0D18F524C9E1D900854F4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C0D18F724C9E5CE00854F4B /* classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = classes; path = zhibo/classes; sourceTree = "<group>"; };
 		2C4E7FAB24C9A23C005C162F /* zhibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4E7FAE24C9A23C005C162F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4E7FB024C9A23C005C162F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,11 +46,7 @@
 		2C4E7FBA24C9A23C005C162F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C4E7FBC24C9A23C005C162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4E7FC124C9A23D005C162F /* zhiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4E7FC524C9A23D005C162F /* zhiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhiboTests.swift; sourceTree = "<group>"; };
-		2C4E7FC724C9A23D005C162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4E7FCC24C9A23D005C162F /* zhiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4E7FD024C9A23D005C162F /* zhiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhiboUITests.swift; sourceTree = "<group>"; };
-		2C4E7FD224C9A23D005C162F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +79,6 @@
 			children = (
 				2C0D18F524C9E1D900854F4B /* Default-568h@2x.png */,
 				2C4E7FAD24C9A23C005C162F /* zhibo */,
-				2C4E7FC424C9A23D005C162F /* zhiboTests */,
-				2C4E7FCF24C9A23D005C162F /* zhiboUITests */,
 				2C4E7FAC24C9A23C005C162F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +96,7 @@
 		2C4E7FAD24C9A23C005C162F /* zhibo */ = {
 			isa = PBXGroup;
 			children = (
+				2C0D18F724C9E5CE00854F4B /* classes */,
 				2C4E7FAE24C9A23C005C162F /* AppDelegate.swift */,
 				2C4E7FB024C9A23C005C162F /* SceneDelegate.swift */,
 				2C4E7FB224C9A23C005C162F /* ContentView.swift */,
@@ -119,24 +114,6 @@
 				2C4E7FB724C9A23C005C162F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2C4E7FC424C9A23D005C162F /* zhiboTests */ = {
-			isa = PBXGroup;
-			children = (
-				2C4E7FC524C9A23D005C162F /* zhiboTests.swift */,
-				2C4E7FC724C9A23D005C162F /* Info.plist */,
-			);
-			path = zhiboTests;
-			sourceTree = "<group>";
-		};
-		2C4E7FCF24C9A23D005C162F /* zhiboUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2C4E7FD024C9A23D005C162F /* zhiboUITests.swift */,
-				2C4E7FD224C9A23D005C162F /* Info.plist */,
-			);
-			path = zhiboUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +224,7 @@
 				2C0D18F624C9E1D900854F4B /* Default-568h@2x.png in Resources */,
 				2C4E7FB824C9A23C005C162F /* Preview Assets.xcassets in Resources */,
 				2C4E7FB524C9A23C005C162F /* Assets.xcassets in Resources */,
+				2C0D18F824C9E5CE00854F4B /* classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4E7FC624C9A23D005C162F /* zhiboTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4E7FD124C9A23D005C162F /* zhiboUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
