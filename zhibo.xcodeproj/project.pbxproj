@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0D18F624C9E1D900854F4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0D18F524C9E1D900854F4B /* Default-568h@2x.png */; };
 		2C4E7FAF24C9A23C005C162F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FAE24C9A23C005C162F /* AppDelegate.swift */; };
 		2C4E7FB124C9A23C005C162F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB024C9A23C005C162F /* SceneDelegate.swift */; };
 		2C4E7FB324C9A23C005C162F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E7FB224C9A23C005C162F /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0D18F524C9E1D900854F4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2C4E7FAB24C9A23C005C162F /* zhibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4E7FAE24C9A23C005C162F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4E7FB024C9A23C005C162F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		2C4E7FA224C9A23C005C162F = {
 			isa = PBXGroup;
 			children = (
+				2C0D18F524C9E1D900854F4B /* Default-568h@2x.png */,
 				2C4E7FAD24C9A23C005C162F /* zhibo */,
 				2C4E7FC424C9A23D005C162F /* zhiboTests */,
 				2C4E7FCF24C9A23D005C162F /* zhiboUITests */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4E7FBB24C9A23C005C162F /* LaunchScreen.storyboard in Resources */,
+				2C0D18F624C9E1D900854F4B /* Default-568h@2x.png in Resources */,
 				2C4E7FB824C9A23C005C162F /* Preview Assets.xcassets in Resources */,
 				2C4E7FB524C9A23C005C162F /* Assets.xcassets in Resources */,
 			);
@@ -438,6 +442,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"zhibo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = zhibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.niji.zhibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,6 +462,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"zhibo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = zhibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.niji.zhibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
